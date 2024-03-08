@@ -208,7 +208,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 452
+        y: 454
         width: 146
         height: 146
       alignment: 0
@@ -228,12 +228,12 @@ TextureImporter:
       name: gameIcons_3
       rect:
         serializedVersion: 2
-        x: 623
-        y: 452
+        x: 625
+        y: 450
         width: 146
         height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.8387397, y: 0.27417347}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
