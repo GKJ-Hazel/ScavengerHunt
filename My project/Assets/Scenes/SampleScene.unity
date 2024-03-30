@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 2020749095}
 --- !u!4 &109410949
 Transform:
   m_ObjectHideFlags: 0
@@ -777,7 +777,6 @@ GameObject:
   - component: {fileID: 208221107}
   - component: {fileID: 208221106}
   - component: {fileID: 208221105}
-  - component: {fileID: 208221108}
   m_Layer: 0
   m_Name: gameIcons_3
   m_TagString: Untagged
@@ -883,21 +882,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &208221108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208221103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &216762837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1024,6 @@ GameObject:
   - component: {fileID: 277752744}
   - component: {fileID: 277752743}
   - component: {fileID: 277752742}
-  - component: {fileID: 277752745}
   m_Layer: 0
   m_Name: gameIcons_2
   m_TagString: Untagged
@@ -1146,21 +1129,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &277752745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277752740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &290216993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1829,6 @@ GameObject:
   - component: {fileID: 523181827}
   - component: {fileID: 523181826}
   - component: {fileID: 523181825}
-  - component: {fileID: 523181828}
   m_Layer: 0
   m_Name: gameIcons_7
   m_TagString: Untagged
@@ -1967,21 +1934,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &523181828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 523181823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &626488158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,7 +2909,6 @@ GameObject:
   - component: {fileID: 848252912}
   - component: {fileID: 848252911}
   - component: {fileID: 848252910}
-  - component: {fileID: 848252913}
   m_Layer: 0
   m_Name: gameIcons_0
   m_TagString: Untagged
@@ -3063,21 +3014,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &848252913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848252908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &915072259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,7 +3026,6 @@ GameObject:
   - component: {fileID: 915072263}
   - component: {fileID: 915072262}
   - component: {fileID: 915072261}
-  - component: {fileID: 915072264}
   m_Layer: 0
   m_Name: gameIcons_10
   m_TagString: Untagged
@@ -3196,21 +3131,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &915072264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915072259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &942808135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,7 +3287,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -3419,7 +3339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.17033, y: -7.5336, z: -8}
+  m_LocalPosition: {x: -20.519018, y: -7.5286236, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4287,7 +4207,6 @@ GameObject:
   - component: {fileID: 1344156900}
   - component: {fileID: 1344156899}
   - component: {fileID: 1344156898}
-  - component: {fileID: 1344156901}
   m_Layer: 0
   m_Name: gameIcons_9
   m_TagString: Untagged
@@ -4393,21 +4312,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1344156901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344156896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1379719645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5590,7 +5494,6 @@ GameObject:
   - component: {fileID: 1601491201}
   - component: {fileID: 1601491200}
   - component: {fileID: 1601491199}
-  - component: {fileID: 1601491202}
   m_Layer: 0
   m_Name: gameIcons_5
   m_TagString: Untagged
@@ -5696,21 +5599,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1601491202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601491197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1612405025
 GameObject:
   m_ObjectHideFlags: 0
@@ -5889,7 +5777,6 @@ GameObject:
   - component: {fileID: 1652219286}
   - component: {fileID: 1652219285}
   - component: {fileID: 1652219284}
-  - component: {fileID: 1652219287}
   m_Layer: 0
   m_Name: gameIcons_8
   m_TagString: Untagged
@@ -5995,21 +5882,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1652219287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652219282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1666274578
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,7 +6358,6 @@ GameObject:
   - component: {fileID: 1770320500}
   - component: {fileID: 1770320499}
   - component: {fileID: 1770320498}
-  - component: {fileID: 1770320501}
   m_Layer: 0
   m_Name: gameIcons_1
   m_TagString: Untagged
@@ -6592,21 +6463,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1770320501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770320496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1798505976
 GameObject:
   m_ObjectHideFlags: 0
@@ -6970,7 +6826,6 @@ GameObject:
   - component: {fileID: 1809187024}
   - component: {fileID: 1809187023}
   - component: {fileID: 1809187022}
-  - component: {fileID: 1809187025}
   m_Layer: 0
   m_Name: gameIcons_4
   m_TagString: Untagged
@@ -7076,21 +6931,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1809187025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809187020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1829130811
 GameObject:
   m_ObjectHideFlags: 0
@@ -8170,7 +8010,6 @@ GameObject:
   - component: {fileID: 2121024232}
   - component: {fileID: 2121024231}
   - component: {fileID: 2121024230}
-  - component: {fileID: 2121024233}
   m_Layer: 0
   m_Name: gameIcons_6
   m_TagString: Untagged
@@ -8276,21 +8115,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2121024233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121024228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &2124770843
 GameObject:
   m_ObjectHideFlags: 0
