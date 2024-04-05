@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.16788316, g: 0.21073577, b: 0.28994018, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3339,7 +3339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.519018, y: -7.5286236, z: -15}
+  m_LocalPosition: {x: -21.170334, y: -7.5325365, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6604,7 +6604,6 @@ GameObject:
   - component: {fileID: 1800593240}
   - component: {fileID: 1800593239}
   - component: {fileID: 1800593238}
-  - component: {fileID: 1800593241}
   m_Layer: 0
   m_Name: Collectibles
   m_TagString: Untagged
@@ -6669,21 +6668,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1800593241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800593237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d694d80e66beae498268fd59049af07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
-  pickupEffect: {fileID: 0}
-  scoreUI: {fileID: 0}
 --- !u!1 &1804541995
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,6 +7523,7 @@ GameObject:
   - component: {fileID: 2020749094}
   - component: {fileID: 2020749096}
   - component: {fileID: 2020749095}
+  - component: {fileID: 2020749097}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -7563,8 +7548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 46.8195, y: -22.8108}
-  m_SizeDelta: {x: 93.6389, y: 38.1354}
+  m_AnchoredPosition: {x: 99.3, y: -22.8108}
+  m_SizeDelta: {x: 200, y: 38.1354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020749095
 MonoBehaviour:
@@ -7599,7 +7584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: '
+  m_Text: 
 --- !u!222 &2020749096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7608,6 +7593,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020749093}
   m_CullTransparentMesh: 1
+--- !u!114 &2020749097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020749093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37e7986f3534ea4faf8ce8efd741ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 2020749095}
 --- !u!1 &2062939416
 GameObject:
   m_ObjectHideFlags: 0
